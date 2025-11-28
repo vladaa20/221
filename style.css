@@ -34,12 +34,9 @@ nav a {
 }
 
 .nav-button:hover {
-    background-color: #9e5c00; /* светлее при наведении */
-    color: black;
+    background-color: #9e5c00; 
 }
 
-
-/* Блоки */
 .block {
    
     padding: 40px;
@@ -49,7 +46,7 @@ nav a {
     animation: fade 1s ease-in-out;
 }
 
-/* Анімація */
+
 @keyframes fade {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -62,7 +59,6 @@ nav a {
     gap: 15px;
 }
 
-.
 
 button {
     padding: 10px;
@@ -76,10 +72,10 @@ button:hover {
     background: #325fe0;
 }
 
-/* FOOTER */
+
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     background: #000000;
     color: white;
     height: 100px;
@@ -91,20 +87,17 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;   /* Видео растягивается */
-    z-index: -1;         /* Уводим под контент */
+    object-fit: cover;   
+    z-index: -1;         
 }
 
-
-
-/* ВЕРХНИЕ БЛОКИ — поверх видео */
 .content-block {
     position: relative;
     z-index: 5;
-    background: #111;               /* цвет как на PUBG */
+    background: #111;               
     padding: 100px 40px;
     color: #fff;
-    margin-top: 200px;              /* расстояние для эффекта */
+    margin-top: 200px;              
     border-radius: 40px;
 }
 
@@ -141,7 +134,7 @@ form textarea {
     padding: 8px;
     border: none;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.15); /* более прозрачный */
+    background: rgba(255, 255, 255, 0.15); 
     color: white;
 }
 
@@ -177,10 +170,10 @@ form textarea {
     color: white;
 }
 .photo-card {
-    width: 320px;               /* можно менять размер */
+    width: 320px;               
     height: 420px;
     overflow: hidden;
-    border-radius: 20px;        /* закругленные углы */
+    border-radius: 20px;       
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
@@ -193,17 +186,17 @@ form textarea {
 }
 
 .photo-card:hover {
-    transform: translateY(-10px) scale(1.03); /* поднимается и увеличивается */
+    transform: translateY(-10px) scale(1.03); 
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.55);
 }
 
 .photo-card:hover img {
-    transform: scale(1.1);      /* фото плавно увеличивается */
+    transform: scale(1.1);     
 }
 .form-container {
     display: flex;
-    justify-content: center; /* центр по горизонтали */
-    align-items: center;     /* по вертикали — если хочешь */
+    justify-content: center; 
+    align-items: center;     
     width: 100%;
     padding: 40px 0;
 }
